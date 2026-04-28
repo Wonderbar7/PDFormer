@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+                        <defs>
+                            <linearGradient id="rojoPDF" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ef4444"/>
+                                <stop offset="100%" stop-color="#b91c1c"/>
+                            </linearGradient>
+                            <linearGradient id="azulForm" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#3b82f6"/>
+                                <stop offset="100%" stop-color="#1d4ed8"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- P abstracta / Documento -->
+                        <path d="M 20 15 h 35 a 20 20 0 0 1 0 40 h -15 v 30 h -20 z" fill="url(#rojoPDF)"/>
+                        <circle cx="45" cy="35" r="8" fill="white"/>
+                        
+                        <!-- Elementos de formulario superpuestos (Formando parte visual) -->
+                        <rect x="45" y="55" width="40" height="12" rx="4" fill="url(#azulForm)"/>
+                        <rect x="45" y="73" width="25" height="12" rx="4" fill="#cbd5e1"/>
+                        <circle cx="80" cy="79" r="6" fill="#10b981"/>
+                    </svg>
