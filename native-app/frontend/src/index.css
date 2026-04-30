@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #0b50da;
+  --primary-hover: #0940b0;
+  --bg-main: #f8f9fc;
+  --border: #e2e8f0;
+}
+
+body {
+  background-color: #f8f9fc;
+  color: #0f172a; /* Slate 900 equivalent */
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  antialiased: true;
+  overflow: hidden;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0; /* slate-200 */
+  border-radius: 9999px;
+  border-width: 4px;
+  border-color: transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #cbd5e1; /* slate-300 */
+}
+
+.canvas-container {
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+.snap-guide {
+  position: absolute;
+  background-color: #3b82f6; /* blue-500 */
+  z-index: 50;
+  pointer-events: none;
+}
+
+.resize-handle {
+  position: absolute;
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: #2563eb; /* blue-600 */
+  border: 1px solid #ffffff;
+  border-radius: 0.125rem;
+  z-index: 10;
+}
